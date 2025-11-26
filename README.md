@@ -56,6 +56,7 @@ Multiple hash algorithms
 Perfect for cybersecurity students, developers, and IT professionals learning cryptography.
 
 
+
 MIT License
 
 Copyright (c) 2024 Cryptography Basics
@@ -77,3 +78,23 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+GITHUB DEPLOYMENT COMMANDS
+# Create the simplified project
+mkdir cryptography-basics
+cd cryptography-basics
+
+# Create all 5 files above in the directory
+
+# Make scripts executable
+chmod +x openssl_demo.sh
+chmod +x simple_test.py
+chmod +x hashing_demo.py
+
+# Initialize git and push to GitHub
+git init
+git add .
+git commit -m "Initial commit: Cryptography Basics - Hashing demonstrations"
+git branch -M main
+git remote add origin https://github.com/yourusername/cryptography-basics.git
+git push -u origin main
