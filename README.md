@@ -1,58 +1,57 @@
-# Cryptography-Projects
-Cryptography defense lab: Learn how cryptographic hashing detects supply chain attacks like SolarWinds. OpenSSL, Python automation, and real-world security implementation.
+ Cryptography Basics - Hashing & Security
 
-#Cryptography Defense Lab
+Practical cryptography demonstrations showing hashing fundamentals and real-world security applications.
 
-*Real-world demonstration of cryptographic verification that could have prevented the SolarWinds supply chain attack*
-
-#Quick Start
+##  Quick Start
 
 ```bash
-# Clone and run demonstration
-git clone <repository-url>
-cd cryptography-defense-lab
-./run_demonstration.sh
-📖 Overview
-This project provides hands-on cryptography lessons through:
+# Clone the repository
+git clone https://github.com/yourusername/cryptography-basics
+cd cryptography-basics
 
-Supply chain attack simulation (SolarWinds-style)
+# Run demonstrations
+python3 simple_test.py
+python3 hashing_demo.py
+./openssl_demo.sh
+ What's Included
+simple_test.py
+Basic hashing introduction
 
-File integrity verification with OpenSSL
+MD5 and SHA-256 examples
 
-Automated security scripts in Python & Bash
+Perfect for beginners
 
-Real-time tampering detection
+hashing_demo.py
+Comprehensive hashing properties
 
-🛠️ Features
-Live attack simulation & detection
+File integrity checking
 
-Multiple hash algorithms (SHA-256, MD5, SHA-1)
+Multiple algorithms (MD5, SHA-1, SHA-256)
 
-Enterprise security workflows
+openssl_demo.sh
+Professional OpenSSL tools
 
-Educational case studies
+Supply chain attack simulation
 
-🏗️ Project Structure
-text
-scripts/
-├── create_secure_release.sh    # Secure software packaging
-├── simulate_attack.sh          # Supply chain attack simulation
-├── detect_tampering.sh         # Cryptographic verification
-└── verify_download.sh          # Enterprise security workflow
-📚 Learning Outcomes
-Cryptographic hashing principles
+Real-world security verification
+
+ Learning Outcomes
+Cryptographic hashing fundamentals
 
 File integrity verification
 
-Supply chain security
+OpenSSL command-line tools
 
-Security automation
+Security breach prevention
 
-🔧 Technologies
-OpenSSL, Python 3, Bash
+Technologies
+Python 3 with hashlib
 
-SHA-256, MD5, SHA-1 hashing
+OpenSSL cryptography
 
-Enterprise security protocols
+Bash scripting
 
-Perfect for cybersecurity students, developers, and IT professionals learning real-world cryptography applications.
+Multiple hash algorithms
+
+Perfect for cybersecurity students, developers, and IT professionals learning cryptography.
+
