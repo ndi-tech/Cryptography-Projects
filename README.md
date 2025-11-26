@@ -6,7 +6,7 @@ Practical cryptography demonstrations showing hashing fundamentals and real-worl
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cryptography-basics
+git clone https://github.com/ndi-tech/Cryptography-Projects.git
 cd cryptography-basics
 
 # Run demonstrations
